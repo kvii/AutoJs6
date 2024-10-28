@@ -54,6 +54,7 @@ pluginManagement {
                 "2022.1" to "E", /* May 3, 2023. */
             ),
             "android" to mapOf(
+                "2024.2" to "8.7.1",
                 "Preview2023.2" to "8.3.0-alpha16", /* Dec 2, 2023. */
                 "2023.1" to "8.2.0", /* Dec 2, 2023. */
                 "Preview2023.1" to "8.2.0-beta06", /* Oct 11, 2023. */
@@ -65,6 +66,7 @@ pluginManagement {
                 fallbackIdentifier to "7.4.2", /* May 3, 2023. */
             ),
             "kotlin" to mapOf(
+                "2024.2" to "1.9.24",
                 "Preview2023.2" to "1.9.20-RC", /* Oct 12, 2023. */
                 "2023.1" to "1.9.20-RC2", /* Oct 25, 2023. */
                 "Preview2023.1" to "1.9.20-RC", /* Oct 12, 2023. */
@@ -113,6 +115,7 @@ pluginManagement {
     )
 
     val kspPluginVersionMap = mapOf(
+        "1.9.24" to "1.0.20",
         "1.9.21" to "1.0.15", /* Dec 2, 2023. */
         "1.9.20" to "1.0.14", /* Nov 9, 2023. */
         "1.9.20-RC2" to "1.0.13", /* Oct 26, 2023. */
